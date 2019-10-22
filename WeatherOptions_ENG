@@ -1,0 +1,126 @@
+import { StyleSheet, Text, View, StatusBar } from "react-native";
+export {weatherOptions};
+export {Loading_Comment};
+export {styles};
+
+    const Loading_Comment = "Getting the fucking Weather";
+
+    const styles = StyleSheet.create({
+        container: {
+            flex: 1,
+            justifyContent: "flex-end",
+            paddingHorizontal: 30,
+            paddingVertical: 100,
+            backgroundColor: "#FDF6AA"
+        },
+    
+        text: {
+            color: "#2c2c2c",
+            fontSize: 30
+        }
+    });
+
+    const weatherOptions = {
+        Thunderstorm: {
+            iconName: "weather-lightning",
+            gradient: [ "#000000", "#434343" ],
+            title: "Thunder Storm",
+            subtitle: "Actually, outside of the house"
+        }, 
+        Drizzle: {
+            iconName: "weather-pouring", //
+            gradient: [ "#4286f4", "#373B44" ],
+            title: "Drizzle",
+            subtitle: "Just don't go outside."
+        }, 
+        Rain: {
+            iconName: "weather-rainy",
+            gradient: [ "#29323c", "#485563" ],
+            title: "Rain",
+            subtitle: "For more info look outside"
+        }, 
+        Snow: {
+            iconName: "weather-snowy",
+            gradient: [ "#757F9A", "#D7DDE8" ],
+            title: "Snow",
+            subtitle: "Winter day!!"
+        }, 
+        Atmosphere: {
+            iconName: "weather-sunny", //
+            gradient: [ "#5B86E5", "#36D1DC" ],
+            title: "Atmosphere",
+            subtitle: "Enter the atmosphere"
+        }, 
+        Mist: {
+            iconName: "weather-fog",
+            gradient: [ "#4CA1AF", "#C4E0E5" ],
+            title: "Mist",
+            subtitle: "In a mist"
+        },
+        Smoke: {
+            iconName: "weather-fog", //
+            gradient: [ "#1e130c", "#9a8478" ],
+            title: "Smoke",
+            subtitle: "A cloud of smoke rose suddenly."
+        },  
+        Haze: {
+            iconName: "weather-fog", //
+            gradient: [ "#274046", "#e6dada" ],
+            title: "Haze",
+            subtitle: "In a haze"
+        },	  
+        Dust: {
+            iconName: "weather-fog", //
+            gradient: [ "#e9d362", "#333333" ],
+            title: "Dust",
+            subtitle: "The books were all covered with dust."
+        },	  
+        Fog: {
+            iconName: "weather-fog",
+            gradient: [ "#2c3e50", "#bdc3c7" ],
+            title: "Fog",
+            subtitle: "A fog-shrouded city"
+        },
+        Sand: {
+            iconName: "weather-fog", //
+            gradient: [ "#603813", "#b29f94" ],
+            title: "Sand",
+            subtitle: "We went for a walk along the sand."
+        },	  
+        Dust: {
+            iconName: "weather-fog", //
+            gradient: [ "#e9d362", "#333333" ],
+            title: "Dust",
+            subtitle: "Dust in the wind"
+        },	  
+        Ash: {
+            iconName: "weather-fog", //
+            gradient: [ "#bdc3c7", "#2c3e50" ],
+            title: "Ash",
+            subtitle: "Ash, Ash, Ash"
+        },	   
+        Squall: {
+            iconName: "weather-lightning", //
+            gradient: [ "#BBD2C5", "#536976", "#292E49" ],
+            title: "Squall",
+            subtitle: "Wow"
+        }, 
+        Tornado: {
+            iconName: "weather-hurricane",
+            gradient: [ "#485563", "#29323c" ],
+            title: "Tornado",
+            subtitle: "You can fly!"
+        },
+        Clear: {
+            iconName: "weather-sunny",
+            gradient: [ "#2193b0", "#6dd5ed" ],
+            title: "Clear",
+            subtitle: "Go get your ass burnt!"
+        }, 
+        Clouds: {
+            iconName: "weather-cloudy",
+            gradient: [ "#616161", "#9bc5c3" ],
+            title: "Clouds",
+            subtitle: "I know, fucking boring..."
+        }
+    };
